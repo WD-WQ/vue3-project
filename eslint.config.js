@@ -9,6 +9,11 @@ export default defineConfig([
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,vue}"],
     plugins: { js },
     extends: ["js/recommended"],
+    settings: {
+      'import/resolver': {
+        typescript: {}, // 使用typescript的解析规则
+      },
+    },
   },
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,vue}"],
