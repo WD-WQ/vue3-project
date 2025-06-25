@@ -4,26 +4,24 @@
     <div class="layout_slider">123</div>
     <div class="layout_tabbar">456</div>
     <div class="layout_main">
-      <p style="height: 10000px; background-color: red;"></p>
+      <p style="height: 10000px; background-color: red"></p>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-.layout_container{
+.layout_container {
   width: 100%;
   height: 100vh;
 }
-.layout_slider{
+.layout_slider {
   width: 20%;
   height: 100vh;
   background-color: #001529;
 }
-.layout_tabbar{
+.layout_tabbar {
   position: fixed;
   right: 0;
   top: 0;
@@ -31,7 +29,7 @@
   height: 10%;
   background-color: blue;
 }
-.layout_main{
+.layout_main {
   box-sizing: border-box;
   position: fixed;
   overflow: auto;

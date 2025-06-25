@@ -10,7 +10,7 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"],
     settings: {
-      'import/resolver': {
+      "import/resolver": {
         typescript: {}, // 使用typescript的解析规则
       },
     },

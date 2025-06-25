@@ -7,7 +7,7 @@
   "compilerOptions": {
     "types": ["element-plus/global"],
     "resolveJsonModule": true,
-    "lib": ["es6","DOM"],
+    "lib": ["es6", "DOM"],
     "allowJs": true,
     "baseUrl": "./",
     "paths": {
